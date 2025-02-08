@@ -1,6 +1,6 @@
 # aws-devops-project-gowtham
 
-##Project Name: VPC
+# Project Name: VPC
 
 A VPC (Virtual Private Cloud) in AWS is a logically isolated network within the AWS cloud where you can define and control various network resources. It enables you to launch AWS resources, such as EC2 instances, RDS databases, and other services, in a virtual network that you define.
 
@@ -21,7 +21,7 @@ Peering Connections: You can connect multiple VPCs using VPC peering to allow re
 
 VPN and Direct Connect: Connect your on-premises network to your VPC through VPN or AWS Direct Connect.
 
-Key VPC Components:
+# Key VPC Components:
 Subnets: Networks within your VPC that define the availability zones where resources are placed (e.g., private, public, or isolated subnets).
 
 Internet Gateway: Allows communication between instances in your VPC and the internet.
