@@ -22,17 +22,24 @@ Peering Connections: You can connect multiple VPCs using VPC peering to allow re
 VPN and Direct Connect: Connect your on-premises network to your VPC through VPN or AWS Direct Connect.
 
 # Key VPC Components:
-Subnets: Networks within your VPC that define the availability zones where resources are placed (e.g., private, public, or isolated subnets).
+### Subnets: 
+Networks within your VPC that define the availability zones where resources are placed (e.g., private, public, or isolated subnets).
 
-Internet Gateway: Allows communication between instances in your VPC and the internet.
+### Internet Gateway: 
+Allows communication between instances in your VPC and the internet.
 
-Elastic IP (EIP): Public IP address that can be associated with an instance or a network interface in your VPC.
+### Elastic IP (EIP): 
+Public IP address that can be associated with an instance or a network interface in your VPC.
 
-Route Tables: Define routes for how traffic flows within and outside the VPC.
+### Route Tables: 
+Define routes for how traffic flows within and outside the VPC.
 
-NAT Gateway: Allows instances in a private subnet to access the internet.
+### NAT Gateway: 
+Allows instances in a private subnet to access the internet.
 
-VPC Peering: Enables communication between two VPCs in different regions or the same region.
+### VPC Peering: 
+Enables communication between two VPCs in different regions or the same region.
 
-Security Groups and Network ACLs: Control access to resources by specifying rules for inbound and outbound traffic.
+### Security Groups and Network ACLs: 
+Control access to resources by specifying rules for inbound and outbound traffic.
 
