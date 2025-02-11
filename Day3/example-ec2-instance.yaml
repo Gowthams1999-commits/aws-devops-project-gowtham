@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: CloudFormation Template to launch an EC2 instance
+
+Resources:
+  MyEC2Instance:
+    Type: 'AWS::EC2::Instance'
+    Properties:
+      InstanceType: t2.micro   # EC2 Instance type (you can change as per your requirements)
+      ImageId: your aws image ID # Amazon Machine Image (AMI) ID (update as per your region)
+      KeyName: your aws sh key value pair  # Name of the EC2 Key Pair for SSH access
+      
