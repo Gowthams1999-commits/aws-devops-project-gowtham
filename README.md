@@ -2,4 +2,4 @@
 
 # Day 2 --> S3 bucket project
 
-# Day 3 --> cloud formation template fo resources creation
+# Day 3 --> Cloudformation template for resources creation
