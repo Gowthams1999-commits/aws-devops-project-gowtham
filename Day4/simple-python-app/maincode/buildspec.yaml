@@ -1,0 +1,39 @@
+version: 0.2
+
+env:
+  parameter-store:
+    docker_user_name: "/docker/user"
+    docker_user_password: "/docker/password"  # Fixed the typo here
+
+phases:
+  install:
+    runtime-versions:
+      python: latest
+    commands:
+      - echo "Installing dependencies"
+
+  pre_build:
+    commands:
+      - echo "$docker_user_name"
+      - echo "$docker_user_password"
+      - echo "Installing Python dependencies"
+      - pip install flask
+
+  build:
+    commands:
+      - echo "Checkout from GitHub completed"
+      - echo "Logging into Docker Hub"
+      - docker login -u "$docker_user_name" --password "$docker_user_password"
+      - echo "Logged into Docker Hub"
+      - echo "Building Docker image"
+      - docker build --network host -t "$docker_user_name/simple-python-aws:$CODEBUILD_BUILD_NUMBER" Day4/simple-python-app/maincode
+      - docker push "$docker_user_name/simple-python-aws:$CODEBUILD_BUILD_NUMBER"
+      - echo "Image pushed to Docker Hub"
+  post_build:
+    commands:
+      - echo "Successfully completed build process"  # Fixed the typo here
+
+artifacts:
+  files:
+    - '**/*'
+  name: builds/$CODEBUILD_BUILD_NUMBER/my-artifacts
