@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+set -e 
 
 # Define the container name (make sure to set this to the correct container name) 
 CONTAINER_NAME=py-test
