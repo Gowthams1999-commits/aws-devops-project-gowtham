@@ -2,7 +2,7 @@
 set -e
 
 # Define the container name (make sure to set this to the correct container name) 
-CONTAINER_NAME=py-test
+CONTAINER_NAME=py-test-gowtham
 
 # Stop the running container if it exists
 if [ $(docker ps -q -f name=$CONTAINER_NAME) ]; then
