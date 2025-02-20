@@ -11,3 +11,5 @@
 # Day 6 ---> Code Deploy
 
 # Day 7 ---> Cloud watch
+
+# Day 8 ---> Lamda Function
