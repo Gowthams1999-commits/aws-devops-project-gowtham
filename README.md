@@ -13,3 +13,5 @@
 # Day 7 ---> Cloud watch
 
 # Day 8 ---> Lamda Function
+
+# Day 9 ---> AWS CloudWatch Events and EventBridge
