@@ -16,3 +16,5 @@
 ## Day 8 ---> Lamda Function
 
 ## Day 9 ---> AWS CloudWatch Events and EventBridge
+
+## Day 10 ---> CloudFront ( Content Delivery Network )
