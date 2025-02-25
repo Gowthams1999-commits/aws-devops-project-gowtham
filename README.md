@@ -19,4 +19,4 @@
 
 ## Day 10 ---> CloudFront ( Content Delivery Network )
 
-## Day 11 ---> ECR ( Elastic Container Registory )
+## Day 11 ---> ECR ( Elastic Container Registry )
