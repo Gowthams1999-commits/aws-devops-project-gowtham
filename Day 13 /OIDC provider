@@ -20,4 +20,4 @@ If output is returned, then you already have an IAM OIDC provider for your clust
 Create an IAM OIDC identity provider for your cluster with the following command.
 
 
-eksctl utils associate-iam-oidc-provider --cluster $cluster_na
+eksctl utils associate-iam-oidc-provider --cluster $cluster_name
