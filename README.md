@@ -22,3 +22,5 @@
 ## Day 11 ---> ECR ( Elastic Container Registry )
 
 ## Day 12 ---> ECS ( Elastic Container Service )
+
+## Day 13 ---> EKS ( Elastic Kubernetes service )
