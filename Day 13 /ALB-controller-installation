@@ -10,7 +10,7 @@ Create IAM Policy
 
 ```
 aws iam create-policy \
-    --policy-name AWSLoadBalancerControllerIAMPolicy \
+    --policy-name AWSLoadBalancerControllerIAMPolicy-test \
     --policy-document file://iam_policy.json
 ```
 
