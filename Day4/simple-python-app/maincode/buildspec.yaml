@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   parameter-store:
-    docker_user_name: "/docker/user"
+    docker_user_name: "/docker/username"
     docker_user_password: "/docker/password"  # Fixed the typo here
 
 phases:
