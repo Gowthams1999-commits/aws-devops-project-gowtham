@@ -17,7 +17,7 @@ phases:
       - echo "$docker_user_name"
       - echo "$docker_user_password"
       - echo "Installing Python dependencies"
-      - pip install flask
+      - pip install -r Day4/simple-python-app/maincode/requirements.txt
 
   build:
     commands:
