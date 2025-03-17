@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+set -e 
  
 DOCKER_NAME="py-test-gowtham"
 # Define the Docker image name (make sure to set this to the correct image name)
