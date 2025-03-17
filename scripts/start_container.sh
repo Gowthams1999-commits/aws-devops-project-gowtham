@@ -3,7 +3,7 @@ set -e
  
 DOCKER_NAME="py-test-gowtham"
 # Define the Docker image name (make sure to set this to the correct image name)
-DOCKER_IMAGE="gowtham904/simple-python-aws-flask:$CODEBUILD_BUILD_NUMBER"
+DOCKER_IMAGE="gowtham904/simple-python-aws-flask:latest"
 
 docker rm -f $DOCKER_NAME
 # Pull the Docker image from Docker Hub (if needed)
